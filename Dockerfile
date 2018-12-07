@@ -1,4 +1,4 @@
-FROM agrozyme/alpine:edge
+FROM agrozyme/alpine:3.7
 COPY source /
 
 RUN set -euxo pipefail \
